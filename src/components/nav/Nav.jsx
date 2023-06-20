@@ -10,7 +10,7 @@ import { BiMessageAltEdit } from "react-icons/bi";
 import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#home");
+  const [activeNav, setActiveNav] = useState("#");
   const [clickedNav, setClickedNav] = useState("");
 
   useEffect(() => {
@@ -40,7 +40,7 @@ const Nav = () => {
         ) {
           setActiveNav("#contacts");
         } else {
-          setActiveNav(scrollPosition === 0 ? "#home" : "");
+          setActiveNav(scrollPosition === 0 ? "#" : "");
         }
       }
     };
@@ -55,8 +55,8 @@ const Nav = () => {
     <nav>
       <a
         href="#home"
-        onClick={() => setClickedNav("#home")}
-        className={activeNav === "#home" ? "active" : ""}
+        onClick={() => setClickedNav("#")}
+        className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
