@@ -1,12 +1,18 @@
-import React from 'react';
-import {BsLinkedin} from 'react-icons/bs';
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className='header__socials'>
-        <a href="https://www.linkedin.com/in/konstantin-snigirev-4a197410b/" target="_blank"><BsLinkedin /></a>
+    <div className="header__socials">
+      <a
+        href="https://www.linkedin.com/in/konstantin-snigirev-4a197410b/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <BsLinkedin />
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default HeaderSocials
+export default HeaderSocials;
