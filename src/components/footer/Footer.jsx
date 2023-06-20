@@ -5,7 +5,7 @@ import { GrInstagram } from "react-icons/gr";
 const Footer = () => {
   return (
     <footer>
-      <a href="javascript:void(0)" className="footer__logo">
+      <a href="#home" className="footer__logo">
         Konstantin Snigirev
       </a>
       <ul className="permalinks">
