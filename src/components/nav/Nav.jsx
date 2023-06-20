@@ -40,7 +40,7 @@ const Nav = () => {
         ) {
           setActiveNav("#contacts");
         } else {
-          setActiveNav(scrollPosition === 0 ? "#" : "");
+          setActiveNav(scrollPosition === 0 ? "#home" : "");
         }
       }
     };
@@ -55,7 +55,7 @@ const Nav = () => {
     <nav>
       <a
         href="#home"
-        onClick={() => setClickedNav("#")}
+        onClick={() => setClickedNav("#home")}
         className={activeNav === "#home" ? "active" : ""}
       >
         <AiOutlineHome />

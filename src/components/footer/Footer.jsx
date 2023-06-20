@@ -10,7 +10,7 @@ const Footer = () => {
       </p>
       <ul className="permalinks">
         <li>
-          <a href="https://wondrous-taffy-9f4c7d.netlify.app/">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
